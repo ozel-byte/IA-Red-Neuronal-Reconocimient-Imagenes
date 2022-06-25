@@ -38,7 +38,7 @@ def crearModelo2(img,labels):
         img,
         labels,
         epochs=40,
-        batch_size=32
+        
     )
     plt.plot(history.history['loss'])
     plt.show()
